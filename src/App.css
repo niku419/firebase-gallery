@@ -11,7 +11,7 @@ body {
 }
  .heading{
   margin-top: 2rem;
-  color: #fff;
+  color: #ffffff;
   text-align: center;
   font-family: 'Oswald', sans-serif;
   letter-spacing: 0.5rem;
@@ -23,13 +23,13 @@ body {
   color: #05386b;
 }
  .btn-primary:active, .btn-primary:visited {
-  background-color: #fff !important;
+  background-color: #ffffff !important;
   color: #05386b !important;
   border: 1.5px solid #05386b !important;
 }
 .btn-primary:hover{
   background-color: #05386b !important;
-  color: #fff !important;
+  color: #ffffff !important;
   border: 1px solid #05386b !important;
 }
 .btn-primary{
