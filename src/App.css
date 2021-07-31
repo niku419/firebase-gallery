@@ -1,0 +1,51 @@
+html,
+body,
+#root {
+  height: 100%;
+  width: 100%;
+  background-image:  linear-gradient(to right, rgba(255,0,0,0), rgb(49, 167, 245));
+}
+body {
+  font-family: system-ui;
+  margin: 0;
+}
+ .heading{
+  margin-top: 2rem;
+  color: #fff;
+  text-align: center;
+  font-family: 'Oswald', sans-serif;
+  letter-spacing: 0.5rem;
+  font-size: 3rem;
+  font-weight: 800;
+  font-stretch: ultra-condensed;
+}
+.heading2{
+  color: #05386b;
+}
+ .btn-primary:active, .btn-primary:visited {
+  background-color: #fff !important;
+  color: #05386b !important;
+  border: 1.5px solid #05386b !important;
+}
+.btn-primary:hover{
+  background-color: #05386b !important;
+  color: #fff !important;
+  border: 1px solid #05386b !important;
+}
+.btn-primary{
+  background-color: #fff !important;
+  color: #05386b !important;
+  border: 1px solid #fff !important;
+} 
+.description{
+  color: #c5c6c7 !important;
+} 
+.progress-bar{
+  background-color: #05386b !important;
+}
+.img-fluid{
+  height: 250px !important;
+  width: 300px !important;
+  overflow: hidden !important;
+  object-fit: cover !important;
+}
