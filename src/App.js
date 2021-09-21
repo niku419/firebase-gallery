@@ -4,7 +4,6 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 import Gallery from './ReactFirebaseGallery/components/Gallery'
 
 function App() {
-
   return (
     <div>
       <Gallery/>
