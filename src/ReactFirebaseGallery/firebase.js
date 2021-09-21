@@ -3,13 +3,13 @@ import  'firebase/firestore'
 import 'firebase/storage'
 
 const app = firebase.initializeApp({
-  apiKey: "AIzaSyAAgNfJiQfiYQC2Xa97t1rLIaVhUrCBChA",
-  authDomain: "imagegallery-35cb3.firebaseapp.com",
-  projectId: "imagegallery-35cb3",
-  storageBucket: "imagegallery-35cb3.appspot.com",
-  messagingSenderId: "264337640",
-  appId: "1:264337640:web:ed54a9afbdd84b16ca715d",
-  measurementId: "G-DV7SXF2KVD"
+  apiKey: "AIzaSyBMxTBqkEx4ptWXjFpS9Nnn7jhJO570M-w",
+  authDomain: "react-firebase-images.firebaseapp.com",
+  projectId: "react-firebase-images",
+  storageBucket: "react-firebase-images.appspot.com",
+  messagingSenderId: "463281278260",
+  appId: "1:463281278260:web:c5395a9081471032856961",
+  measurementId: "G-E2VNC7WJXE"
 })
 const firestore = app.firestore()
 export const storage = firebase.storage()
